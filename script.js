@@ -46,7 +46,7 @@ function update() {
   last= w.toFixed(4);
   
   // document.getElementById("p").innerText = "Error rate: " + error().toFixed(3) + "%";
-  document.getElementById("p2").innerText = "y = "+w.toFixed(4)+"x + " + b;
+  document.getElementById("p2").innerText = "y = "+w.toFixed(4)+"x + " + b.toFixed(4);
 }
 
 function f(x) {
